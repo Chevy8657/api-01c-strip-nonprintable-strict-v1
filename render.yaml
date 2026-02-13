@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: api-01c-strip-nonprintable-strict-v1
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
